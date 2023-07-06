@@ -12,3 +12,8 @@ jobs:
         run: echo Hello, world!
       - name: second step or task
         run: echo Second Step!!!!
+      - name: create file and list it
+        run: |
+          touch newFile.txt
+          ls -l
+          sleep 10
